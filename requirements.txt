@@ -3,10 +3,14 @@ aiohttp==3.7.4
 asyncio==3.4.3
 fastai==2.3.0
 fastbook==0.0.16
-torch==1.7.1
-torchvision==0.8.2
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.6.0+cpu
+-f https://download.pytorch.org/whl/torch_stable.html
+torchvision==0.7.0+cpu
 numpy==1.19.5
 pillow~=8.1
 python-multipart==0.0.5
 starlette==0.13.6
 uvicorn==0.11.7
+
+
