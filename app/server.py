@@ -16,7 +16,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=12St3RPG-zukZAsmjh9lr6boYS3XM94_F'
+export_file_url = 'https://www.dropbox.com/s/v5mlb5ma7pzwxfi/export.pkl?dl=1'
 export_file_name = 'export.pkl'
 
 classes = ['NORMAL','PNEUMONIA']
